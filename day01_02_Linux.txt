@@ -1,0 +1,25 @@
+Linux
+
+今天用到的命令
+    假若在桌面打开终端
+       即  [fengmeng@localhost Desktop]$  fengmeng是创建的用户。
+       cd /  进入根目录     
+       cd /home 进入根目录下的home文件夹  (绝对路径)
+       cd aaa  进入创建的aaa目录
+       ls ./   查看当前目录下的
+       ls -l   查看当前目录下的（详细）
+       ls -a   可以查看隐藏的
+       pwd 显示当前目录路径（绝对）
+       mkdir 创建目录（空）
+       rmdir 删除目录(空)
+       rm -rf test.txt  删除目录(可以非空)或者文件
+       cp old.txt new.txt 拷贝文件  new.txt换成目录 就考到这个目录下
+       mv old.txt new.txt 重复名或者移动文件 *****上层移动不会
+       touch new.txt 创建文件 如果文件存在，则修改当前文件时间(内容不变)
+       vi    i 进入输入模式  esc进入命令模式   ：进入末行模式    :q! 不保存退出   :wq  保存退出
+       echo ok > test.txt  把ok字符覆盖test.txt内容，>表示追加并覆盖的意思。>>两个大于符号，表示追加
+       ll > ~/a.txt  查看文件详情   ll |more
+       Cat a.txt  查看文件
+       
+       
+       

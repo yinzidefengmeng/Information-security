@@ -1,0 +1,27 @@
+Linux 
+		chmod o+w abc.txt  赋予读写权限     w写 r读  x可执行 -无权限    
+		 																	 o其他组权限 u用户user权限(用户所有者) g用户所属组
+		 																	 不能给指定用户加     
+		 																	 权限是附加，并不是覆盖
+		 																	 
+		man chmod
+		chmod 700 c    变目录内部文件权限  rwx 二进制转换为7
+			             给200权限，只写
+			             
+
+		head -n  -5 a.txt  读前4行
+		head -5 a.txt  读前5行
+		
+		ll | grep abc 查看名字有abc的详细信息    
+		cat abc | grep a  查看内容带有a 的那几行
+		chown fengmeng:fengmeng a.txt    显示详细信息后为-rw-r--rw-.  1 fengmeng fengmeng    7 Jul 13 02:44 a.txt
+		passwd 修改本用户密码
+		pssswd fengmeng 修改用户fengmeng密码(管理员)
+		
+		useradd test 创建用户test 组属test 
+		groupadd test1 创建组 test1
+		chown test:test1 test 修改test到test1组下
+		usermod -g root aaa 修改用户aaa到root组下
+		usermod -l test2 test 修改用户test的所有者为test2
+		
+		ctrl + c 终止ping命令
